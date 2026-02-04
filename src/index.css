@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Inter";
+  
+   src: url("./assets/font/Inter-VariableFont_opsz\,wght.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+
+  src: url("./assets/font/Inter-Italic-VariableFont_opsz\,wght.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+
+}
+
+
+:root{
+    /* colors */
+
+    --white: #FFFFFF;
+    --carbon-fiber: #2F2F2F;
+    --font-footer: #A1A1A1;
+    --shani-purple: #501664;
+    --greti-violaceo: #8b0d87;
+    --vicious-violet: #854F9A;
+    --prickly-purple: #AC6BC3;
+    --enterprises: #ba77db5c;
+    --bg-card-products: #f7e9fc;
+    --perfume-haze: #F6EEF9;
+    --sugar-crystal: #FCF3FF;
+    --brazilianite: #22DD51;
+
+    /* text */
+    --font: "Inter", sans-serif;
+}
+
+* {
+  /* padding: 0; */
+  /* margin: 0; */
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: var(--font);
+}
+
+
+/* ===== // ===== \\ ===== */
+
+
+/* carrossel - miniatura de imagens dos produtos (Página individual de produtos) */
+
+/* === Swiper Customização de Botões === */
+
+.product-swiper .swiper-button-prev,
+.product-swiper .swiper-button-next {
+  width: 1.75rem;
+  height: 1.75rem;
+  color: purple;
+  transition: all 0.3s ease;
+}
+
+.product-swiper .swiper-button-prev {
+  transform: translate(-25%, 30%);
+}
+
+.product-swiper .swiper-button-next {
+  transform: translate(25%, 30%);
+}
+
+@media screen and (min-width: 768px) {
+  .product-swiper .swiper-button-prev,
+  .product-swiper .swiper-button-next {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .product-swiper .swiper-button-prev {
+    transform: translate(-22%, 30%);
+  }
+
+  .product-swiper .swiper-button-next {
+    transform: translate(-6%, 30%);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .product-swiper .swiper-button-prev {
+    transform: translate(-20%, 30%);
+  }
+
+  .product-swiper .swiper-button-next {
+    transform: translate(15%, 30%);
+  }
+}
+
+.product-swiper .swiper-button-prev::after,
+.product-swiper .swiper-button-next::after {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+/* === Slides do Hero da Home === */
+
+/* Ajuste da posição das bolinhas */
+@media screen and (max-width: 425px) {
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 5px !important;
+  }
+}
+
+/* Cor das bolinhas */
+.swiper-pagination-bullet {
+    opacity: 0.6;
+}
+
+/* Cor da bolinha ativa */
+.swiper-pagination-bullet-active {
+    background: var(--prickly-purple) !important;
+    opacity: 1 !important;
+}
