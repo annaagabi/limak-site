@@ -53,7 +53,6 @@ export default function CategoryContent({ title, description, products }) {
   return (
     <section className="w-full flex flex-col justify-center items-center px-4 md:px-12 py-5 md:py-7 lg:py-12">
 
-      {/* Testar w-full max-w-7xl no lugar de w-full max-w-[78rem] */}
       <div className='w-full max-w-7xl flex flex-col justify-center items-center'>
 
         <div className="w-full flex flex-col justify-center mb-5 md:mb-7 lg:mb-12 gap-5 md:gap-4 lg:gap-7">

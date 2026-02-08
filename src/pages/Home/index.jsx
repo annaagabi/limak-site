@@ -5,10 +5,13 @@ import AboutSection from '../../components/HomeSections/AboutSection';
 import Comments from '../../components/HomeSections/CommentsSection';
 import Contact from '../../components/HomeSections/Contact';
 import ModalAviso from '../../components/Modal';
+import { Helmet } from "react-helmet-async";
 
 export default function Home() {
+    
     return (
-        <main>
+        <>
+        <Helmet>
             <title>Limak | Sacolas de TNT e Algodão</title>
             <meta name="description" content="A Limak é referência em brindes personalizados há mais de 20 anos. Sacolas TNT personalizadas, mochilas personalizadas, ecobags e brindes corporativos com qualidade, inovação e personalização, confira!" />
             <meta name="keywords" content="brindes personalizados, brindes corporativos, sacolas personalizadas, mochilas personalizadas, ecobags, sacolas ecobag, sacolas tnt, brindes empresariais, Limak Brindes Personalizados" />
@@ -27,6 +30,9 @@ export default function Home() {
             <meta name="twitter:description" content="A Limak é referência em brindes personalizados há mais de 20 anos. Sacolas TNT personalizadas, mochilas personalizadas, ecobags e brindes corporativos com qualidade, inovação e personalização, confira!" />
             <meta name="twitter:url" content="https://limak.com.br" />
             {/* <meta name="twitter:image" content="https://limak.com.br/images/og-image.jpg" /> */}
+        </Helmet>
+        <main>
+            
             <ModalAviso />
             <Hero />
             <Enterprises /> 
@@ -48,5 +54,6 @@ export default function Home() {
             <Comments />
             <Contact />
         </main>
+        </>
     )
 }

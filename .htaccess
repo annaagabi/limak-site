@@ -1,8 +1,41 @@
 <IfModule mod_rewrite.c>
+  # Ativa o mecanismo de reescrita
   RewriteEngine On
   RewriteBase /
-  RewriteRule ^index\.html$ - [L]
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # Mantém arquivos e pastas existentes (JS, CSS, imagens)
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # ----------------------
+  # Redirects 301 (URLs antigas → novas)
+  # ----------------------
+
+  # Sobre
+  Redirect 301 /#sobre /sobre
+
+  # Sacos
+  Redirect 301 /sacos.html /categorias/sacos-tnt-personalizados
+
+  # Sacolas divididas
+  Redirect 301 /sacolas.html /categorias/sacolas-tnt-personalizadas
+  Redirect 301 /sacolas.html#4 /categorias/sacolas-de-algodao-personalizadas
+
+  # Capas de cadeira
+  Redirect 301 /capas.html /categorias/capas-de-cadeira-personalizadas
+
+  # Mochilas
+  Redirect 301 /mochilas.html /categorias/mochilas-personalizadas
+
+  # Aventais
+  Redirect 301 /aventais.html /categorias/aventais-personalizados
+
+  # Coletes
+  Redirect 301 /coletes.html /categorias/coletes-personalizados
+
+  # ----------------------
+  # React Router SPA (todas as outras rotas vão para index.html)
+  # ----------------------
   RewriteRule . /index.html [L]
 </IfModule>

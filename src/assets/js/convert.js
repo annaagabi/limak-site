@@ -26,7 +26,6 @@ for (const folder of folders) {
     if (lower.endsWith(".jpg") || lower.endsWith(".jpeg") || lower.endsWith(".png")) {
       const input = path.join(folderPath, file);
 
-      // 🔥 remove a extensão original
       const filenameWithoutExt = path.parse(file).name;
       const output = path.join(folderPath, filenameWithoutExt + ".webp");
 
