@@ -7,12 +7,13 @@ import Sobre from './pages/About'
 import Header from './layouts/Header'
 import Footer from './layouts/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import WhatsappButton from './components/WhatsappButton'
 
 function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <div className="flex flex-col min-h-screen items-center">
+      <div className="w-full flex flex-col min-h-screen items-center ">
         <Header />
 
         <main className="flex-grow">
@@ -24,6 +25,8 @@ function App() {
             <Route path='/sobre' element={<Sobre />} />
           </Routes>
         </main>
+
+        <WhatsappButton />
 
         <Footer />
       </div>

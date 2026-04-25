@@ -48,7 +48,7 @@ export default function Home() {
                 paragraph='Confira alguns dos produtos finalizados que já produzimos para nossos clientes! Cada item reflete o cuidado e a qualidade dos nossos brindes corporativos personalizados, desenvolvidos com atenção aos detalhes e personalização de alta precisão. Trabalhamos com mochilas personalizadas, sacolas ecobag, sacolas TNT, aventais personalizados, coletes personalizados e capas de cadeira personalizadas, sempre com o logo e identidade visual da empresa. Inspire-se com nossos projetos já realizados e veja como podemos transformar sua ideia em um brinde personalizado exclusivo e profissional.'
                 type='finished'
                 classNameSection='pt-10 pb-6 md:pt-14 md:pb-8 lg:pt-20'
-                classNameTitle='mr-8 md:mr-[20.25rem] xl:mr-[53rem]'
+                // classNameTitle='mr-8 md:mr-[20.25rem] xl:mr-[51rem]'
             /> 
             <AboutSection />
             <Comments />

@@ -62,7 +62,7 @@ export default function Carousel({
                 <ChevronLeft aria-hidden="true" alt="Botão seta para a esquerda" className='w-4 md:w-6 xl:w-12 lg:w-10 h-4 md:h-6 xl:h-12 lg:h-10 text-[var(--shani-purple)] hover:text-fuchsia-700 transition-all duration-300 lg:cursor-pointer'/>
             </button>
 
-            <div className="flex justify-center overflow-hidden scroll-smooth">
+            <div className="w-full flex justify-center overflow-hidden scroll-smooth">
                 {enableSwiper ? (
                 <Swiper
                     ref={swiperRef}
@@ -91,7 +91,7 @@ export default function Carousel({
                                             imgProduct={product.imgProduct}
                                             productName={showProductName ? product.productName : ''}
                                             altImg={product.altImg}
-                                            classCardContainer="w-28 md:w-[8.75rem] lg:w-[10.75rem] xl:w-56 aspect-square"
+                                            classCardContainer="w-28 md:w-[8.75rem] lg:w-[10.75rem] xl:w-[13rem] aspect-square"
                                             classCardImgContainer="w-full h-full md:w-full md:h-full lg:w-full lg:h-full xl:w-full xl:h-full"
                                         />
                                     </Link>
@@ -100,7 +100,7 @@ export default function Carousel({
                                         imgProduct={product.imgProduct}
                                         productName={showProductName ? product.productName : ''}
                                         altImg={product.altImg}
-                                        classCardContainer="w-28 md:w-[8.75rem] lg:w-[10.75rem] xl:w-56 aspect-square"
+                                        classCardContainer="w-28 md:w-[8.75rem] lg:w-[10.75rem] xl:w-[13rem] aspect-square"
                                         classCardImgContainer="w-full h-full md:w-full md:h-full lg:w-full lg:h-full xl:w-full xl:h-full"
                                     />
                                 )}

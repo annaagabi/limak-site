@@ -5,7 +5,7 @@ import { socialLinks } from '../../../data/Links';
 export default function Contact() {
     return (
         // Medidas antigas da Div container (logo após a Section) w-70 md:w-167 lg:w-255 xl:w-312 ---- Novas medidas: w-full max-w-7xl
-        <section aria-labelledby="contact-title" className='w-full flex flex-col justify-center items-center pt-10 md:pt-14 lg:pt-20 pb-8 md:pb-20 px-5 md:px-12'>
+        <section aria-labelledby="contact-title" className='w-full flex flex-col justify-center items-center pt-10 md:pt-14 lg:pt-20 pb-8 md:pb-20 px-4 md:px-12'>
             <div className='w-full max-w-7xl flex flex-col md:flex-row justify-center md:justify-between items-center gap-5'>
                 
                 <img className='w-[17.5rem] md:w-[22.5rem] lg:w-[25rem] xl:w-[28.75rem] md:h-72 lg:auto' src={ContactImg} alt="Imagem de um Celular em Ilustração com Varios Icones de Mensagem" />

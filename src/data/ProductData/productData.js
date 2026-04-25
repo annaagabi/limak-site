@@ -362,7 +362,7 @@ export const productData = {
       ],
       attributes: ['Material durável', 'Alta capacidade', 'Personalização em serigrafia', 'Medidas: 34 cm de largura e 40 cm de altura'],
       carrosel: false,
-      subCategory: 'Serigrafia/ Silkscreen',
+      subCategory: 'Serigrafia / Silkscreen',
       
     },
     
@@ -388,7 +388,7 @@ export const productData = {
       ],
       attributes: ['Material durável', 'Alta capacidade', 'Personalização em serigrafia', 'Medidas: 38 cm de largura e 42 cm de altura','Produzimos sacolas sob medida, com tamanhos personalizados'],
       carrosel: false,
-      subCategory: 'Serigrafia/ Silkscreen',
+      subCategory: 'Serigrafia / Silkscreen',
     },
     {
       id: 'sacola-tnt-8',
@@ -438,7 +438,7 @@ export const productData = {
       ],
       attributes: ['Material durável', 'Alta capacidade', 'Personalização em serigrafia', 'Medidas: 44 cm de largura e 40 cm de altura','Produzimos sacolas sob medida, com tamanhos personalizados'],
       carrosel: false,
-      subCategory: 'Serigrafia/ Silkscreen',
+      subCategory: 'Serigrafia / Silkscreen',
     },
     {
       id: 'sacola-tnt-10',
@@ -463,7 +463,7 @@ export const productData = {
       ],
       attributes: ['Material durável', 'Alta capacidade', 'Personalização em serigrafia', 'Medidas: 29 cm de largura e 39 cm de altura','Produzimos sacolas sob medida, com tamanhos personalizados'],
       carrosel: false,
-      subCategory: 'Serigrafia/ Silkscreen',
+      subCategory: 'Serigrafia / Silkscreen',
     },
     
     {
@@ -488,7 +488,7 @@ export const productData = {
       ],
       attributes: ['Material durável', 'Alta capacidade', 'Personalização em serigrafia', 'Medidas: 26 cm de largura e 34 cm de altura','Produzimos sacolas sob medida, com tamanhos personalizados'],
       carrosel: false,
-      subCategory: 'Serigrafia/ Silkscreen',
+      subCategory: 'Serigrafia / Silkscreen',
     },
     {
       id: 'sacola-tnt-12',
@@ -537,7 +537,7 @@ export const productData = {
       ],
       attributes: ['Material durável', 'Alta capacidade', 'Personalização em serigrafia', 'Medidas: 32 cm de largura, 38 cm de altura e 10 cm de lateral e fundo','Produzimos sacolas sob medida, com tamanhos personalizados'],
       carrosel: false,
-      subCategory: 'Serigrafia/ Silkscreen',
+      subCategory: 'Serigrafia / Silkscreen',
     },
     {
       id: 'sacola-tnt-14',
@@ -561,7 +561,7 @@ export const productData = {
       ],
       attributes: ['Material durável', 'Alta capacidade', 'Personalização em serigrafia', 'Medidas: 45 cm de largura, 40 cm de altura e 15 cm de fundo','Produzimos sacolas sob medida, com tamanhos personalizados'],
       carrosel: false,
-      subCategory: 'Serigrafia/ Silkscreen',
+      subCategory: 'Serigrafia / Silkscreen',
     },
     {
       id: 'sacola-tnt-15',
@@ -586,7 +586,7 @@ export const productData = {
       ],
       attributes: ['Material durável', 'Alta capacidade', 'Personalização em serigrafia', 'Medidas: 45 cm de largura e 40 cm de altura','Produzimos sacolas sob medida, com tamanhos personalizados'],
       carrosel: false,
-      subCategory: 'Serigrafia/ Silkscreen',
+      subCategory: 'Serigrafia / Silkscreen',
     },
     {
       id: 'sacola-tnt-16',
@@ -616,85 +616,7 @@ export const productData = {
       ],
       attributes: ['Material durável', 'Alta capacidade', 'Medidas: 34 cm de largura e 40 cm de altura','Produzimos sacolas sob medida, com tamanhos personalizados'],
       carrosel: false,
-      subCategory: 'Serigrafia/ Silkscreen',
-    },
-    {
-      id: 'sacola-tnt-17',
-      name: 'Sacola TNT 17',
-      description: 'Uma sacola de TNT a personalizável, resistente e ideal para eventos.',
-      mainImage: sacolasTNTLink.SacolaTNT32,
-      altMainImage: 'Imagem de sacola de TNT personalizada',
-      thumbnailImages: [
-       
-        { src: sacolasTNTLink.SacolaTNT32, alt: 'Imagem da sacola de TNT 17' },
-       
-      ],
-      colors: [
-        { name: 'Branco', value: 'bg-white' },
-        { name: 'Bege', value: 'bg-amber-50' },
-        { name: 'Amarelo', value: 'bg-yellow-400' },
-        { name: 'Laranja', value: 'bg-orange-500' },
-        { name: 'Vermelho', value: 'bg-red-600' },
-        { name: 'Azul Royal', value: 'bg-blue-600' },
-        { name: 'Azul Marinho', value: 'bg-blue-900' },
-        { name: 'Preto', value: 'bg-black' },
-
-      ],
-      attributes: ['Material durável', 'Alta capacidade', 'Medidas: 34 cm de altura e 40 cm de largura','Produzimos sacolas sob medida, com tamanhos personalizados'],
-      carrosel: false,
-      subCategory: 'Alça Vazada',
-    },
-    {
-      id: 'sacola-tnt-18',
-      name: 'Sacola TNT 18',
-      description: 'Uma sacola de TNT a personalizável, resistente e ideal para eventos.',
-      mainImage: sacolasTNTLink.SacolaTNT33,
-      altMainImage: 'Imagem de sacola de TNT personalizada',
-      thumbnailImages: [
-       
-        { src: sacolasTNTLink.SacolaTNT33, alt: 'Imagem da sacola de TNT 18' },
-       
-      ],
-      colors: [
-        { name: 'Branco', value: 'bg-white' },
-        { name: 'Bege', value: 'bg-amber-50' },
-        { name: 'Amarelo', value: 'bg-yellow-400' },
-        { name: 'Laranja', value: 'bg-orange-500' },
-        { name: 'Vermelho', value: 'bg-red-600' },
-        { name: 'Azul Royal', value: 'bg-blue-600' },
-        { name: 'Azul Marinho', value: 'bg-blue-900' },
-        { name: 'Preto', value: 'bg-black' },
-
-      ],
-      attributes: ['Material durável', 'Alta capacidade', 'Medidas: 40 cm de altura, 34 cm de largura e 6 cm de fundo','Produzimos sacolas sob medida, com tamanhos personalizados'],
-      carrosel: false,
-      subCategory: 'Alça Vazada',
-    },
-    {
-      id: 'sacola-tnt-19',
-      name: 'Sacola TNT 19',
-      description: 'Uma sacola de TNT a personalizável, resistente e ideal para eventos.',
-      mainImage: sacolasTNTLink.SacolaTNT34,
-      altMainImage: 'Imagem de sacola de TNT personalizada',
-      thumbnailImages: [
-       
-        { src: sacolasTNTLink.SacolaTNT34, alt: 'Imagem da sacola de TNT 19' },
-       
-      ],
-      colors: [
-        { name: 'Branco', value: 'bg-white' },
-        { name: 'Bege', value: 'bg-amber-50' },
-        { name: 'Amarelo', value: 'bg-yellow-400' },
-        { name: 'Laranja', value: 'bg-orange-500' },
-        { name: 'Vermelho', value: 'bg-red-600' },
-        { name: 'Azul Royal', value: 'bg-blue-600' },
-        { name: 'Azul Marinho', value: 'bg-blue-900' },
-        { name: 'Preto', value: 'bg-black' },
-
-      ],
-      attributes: ['Material durável', 'Alta capacidade', 'Medidas: 28 cm de altura e 25 cm de largura','Produzimos sacolas sob medida, com tamanhos personalizados'],
-      carrosel: false,
-      subCategory: 'Alça Vazada',
+      subCategory: 'Serigrafia / Silkscreen',
     },
     {
       id: 'sacola-tnt-20',
@@ -809,6 +731,82 @@ export const productData = {
   ],
   'sacos-tnt-personalizados': [  
     {
+      id: 'saco-tnt-94',
+      name: 'Saco em TNT - 94',
+      description: 'Um saco de TNT personalizável, resistente e ideal para eventos.',
+      mainImage: sacosLink.Saco94,
+      altMainImage: 'Imagem de sacola de TNT personalizada',
+      thumbnailImages: [
+       
+        { src: sacosLink.Saco94, alt: 'Imagem do saco de TNT 94' },
+       
+      ],
+      colors: [
+        { name: 'Branco', value: 'bg-white' },
+        { name: 'Bege', value: 'bg-amber-50' },
+        { name: 'Amarelo', value: 'bg-yellow-400' },
+        { name: 'Laranja', value: 'bg-orange-500' },
+        { name: 'Vermelho', value: 'bg-red-600' },
+        { name: 'Azul Royal', value: 'bg-blue-600' },
+        { name: 'Azul Marinho', value: 'bg-blue-900' },
+        { name: 'Preto', value: 'bg-black' },
+
+      ],
+      attributes: ['Material durável', 'Alta capacidade', 'Medidas: 34 cm de altura e 40 cm de largura','Produzimos sacos sob medida, com tamanhos personalizados'],
+      carrosel: false,
+    },
+
+    {
+      id: 'saco-tnt-95',
+      name: 'Saco em TNT - 95',
+      description: 'Um saco de TNT personalizável, resistente e ideal para eventos.',
+      mainImage: sacosLink.Saco95,
+      altMainImage: 'Imagem de saco de TNT personalizada',
+      thumbnailImages: [
+       
+        { src: sacosLink.Saco95, alt: 'Imagem da saco de TNT 95' },
+       
+      ],
+      colors: [
+        { name: 'Branco', value: 'bg-white' },
+        { name: 'Bege', value: 'bg-amber-50' },
+        { name: 'Amarelo', value: 'bg-yellow-400' },
+        { name: 'Laranja', value: 'bg-orange-500' },
+        { name: 'Vermelho', value: 'bg-red-600' },
+        { name: 'Azul Royal', value: 'bg-blue-600' },
+        { name: 'Azul Marinho', value: 'bg-blue-900' },
+        { name: 'Preto', value: 'bg-black' },
+
+      ],
+      attributes: ['Material durável', 'Alta capacidade', 'Medidas: 40 cm de altura, 34 cm de largura e 6 cm de fundo','Produzimos sacos sob medida, com tamanhos personalizados'],
+      carrosel: false,
+    },
+    {
+      id: 'saco-tnt-96',
+      name: 'Saco em TNT - 96',
+      description: 'Um saco de TNT personalizável, resistente e ideal para eventos.',
+      mainImage: sacosLink.Saco96,
+      altMainImage: 'Imagem de sacola de TNT personalizada',
+      thumbnailImages: [
+       
+        { src: sacosLink.Saco96, alt: 'Imagem do saco de TNT 96' },
+       
+      ],
+      colors: [
+        { name: 'Branco', value: 'bg-white' },
+        { name: 'Bege', value: 'bg-amber-50' },
+        { name: 'Amarelo', value: 'bg-yellow-400' },
+        { name: 'Laranja', value: 'bg-orange-500' },
+        { name: 'Vermelho', value: 'bg-red-600' },
+        { name: 'Azul Royal', value: 'bg-blue-600' },
+        { name: 'Azul Marinho', value: 'bg-blue-900' },
+        { name: 'Preto', value: 'bg-black' },
+
+      ],
+      attributes: ['Material durável', 'Alta capacidade', 'Medidas: 28 cm de altura e 25 cm de largura','Produzimos sacos sob medida, com tamanhos personalizados'],
+      carrosel: false,
+    },
+    {
       id: 'saco-105',
       name: 'Saco em TNT - 105',
       description: 'Um saco de TNT personalizável, resistente e ideal para eventos.',
@@ -883,7 +881,7 @@ export const productData = {
       mainImage: sacosLink.Saco117,
       altMainImage: 'Imagem de um saco de TNT personalizado',
       thumbnailImages: [
-        { src: sacosLink.Saco117, alt: 'Imagem secundária do saco de TNT 7' },
+        { src: sacosLink.Saco117, alt: 'Imagem secundária do saco de TNT 117' },
       ],
 
       videos: {
@@ -897,6 +895,7 @@ export const productData = {
       attributes: ['Material durável', 'Alta capacidade', 'Personalização em serigrafia', 'Medidas: 20 cm de altura e de largura'],
      carrosel: false,
     },
+    
     
   ],
   'capas-de-cadeira-personalizadas': [
@@ -941,12 +940,29 @@ export const productData = {
       thumbnailImages: [
         { src: capasLink.Capas7, alt: 'Imagem secundária da capa de cadeira 3' },
         { src: capasLink.Capas4, alt: 'Imagem secundária da capa de cadeira 3' },
-        { src: capasLink.Capas5, alt: 'Imagem secundária da capa de cadeira 5' },
-        { src: capasLink.Capas6, alt: 'Imagem secundária da capa de cadeira 6' },
+        { src: capasLink.Capas5, alt: 'Imagem secundária da capa de cadeira 3' },
+        { src: capasLink.Capas6, alt: 'Imagem secundária da capa de cadeira 3' },
       ],
       colors: [
         { name: 'Branco', value: 'bg-white' },
         { name: 'Verde', value: 'bg-emerald-600' },
+      ],
+      attributes: ['Material durável', 'Alta capacidade',],
+      carrosel: false,
+    },
+    {
+      id: 'capa-4',
+      name: 'Capa de Cadeira em TNT - 004',
+      description: 'Uma capa de cadeira personalizável, resistente e ideal para eventos.',
+      mainImage: capasLink.Capas10,
+      altMainImage: 'Imagem de uma capa de cadeira personalizada',
+      thumbnailImages: [
+        { src: capasLink.Capas8, alt: 'Imagem secundária da capa de cadeira 4' },
+        { src: capasLink.Capas9, alt: 'Imagem secundária da capa de cadeira 4' },
+        { src: capasLink.Capas10, alt: 'Imagem secundária da capa de cadeira 4' },
+      ],
+      colors: [
+        { name: 'Branco', value: 'bg-white' },
       ],
       attributes: ['Material durável', 'Alta capacidade',],
       carrosel: false,

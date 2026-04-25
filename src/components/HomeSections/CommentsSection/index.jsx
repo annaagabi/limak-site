@@ -64,10 +64,10 @@ export default function CommentsSection() {
   return (
     <section
       aria-labelledby="comments-title"
-      className={`w-full flex justify-center items-center pt-10 pb-4 md:pt-14 lg:pt-20 bg-gradient-to-b from-white via-[#ba77db09] to-[#ba77db] rounded-2xl`}
+      className={`w-full flex justify-center items-center px-4 md:px-12 pt-10 pb-4 md:pt-14 lg:pt-20 bg-gradient-to-b from-white via-[#ba77db09] to-[#ba77db] rounded-2xl`}
     > 
       {/* Medidas antigas da Div container (logo após a Section) w-70 md:w-167 lg:w-255 xl:w-312 ---- Novas medidas: w-full max-w-7xl */}
-      <div className="w-70 md:w-167 lg:w-255 xl:w-312 px-4 md:px-12">
+      <div className="w-full max-w-7xl">
         <h2
           id="comments-title"
           className="mb-6 md:mb-8 lg:mb-10 text-center text-2xl md:text-3xl lg:text-3xl font-semibold text-[var(--shani-purple)]"
@@ -95,7 +95,7 @@ export default function CommentsSection() {
             768: { slidesPerView: 2, navigation: { enabled: false } },
             1024: { slidesPerView: 3, navigation: { enabled: true } },
           }}
-          className="w-64 md:w-[40rem] lg:w-[57.5rem] xl:w-[75rem] min-h-[1.5rem] md:min-h-[23rem] lg:min-h-[21rem] xl:min-h-[20rem] overflow-hidden scroll-smooth"
+          className="w-64 md:w-[40rem] lg:w-[57.5rem] xl:w-[72rem] min-h-[1.5rem] md:min-h-[23rem] lg:min-h-[21rem] xl:min-h-[20rem] overflow-hidden scroll-smooth"
         >
           {visibleComments.map((item) => (
             <SwiperSlide key={item.id}>

@@ -27,9 +27,6 @@ import SacolaTNT26 from '../../assets/images/novas-imagens/SacolasTNT/Sacola-TNT
 import SacolaTNT27 from '../../assets/images/novas-imagens/SacolasTNT/Sacola-TNT-27.webp'
 import SacolaTNT28 from '../../assets/images/novas-imagens/SacolasTNT/Sacola-TNT-28.webp'
 import SacolaTNTCapa from '../../assets/images/novas-imagens/Hero/Sacolas-TNT.webp'
-import SacolaTNT32 from '../../assets/images/novas-imagens/SacolasTNT/Sacola-TNT-32.webp'
-import SacolaTNT33 from '../../assets/images/novas-imagens/SacolasTNT/Sacola-TNT-33.webp'
-import SacolaTNT34 from '../../assets/images/novas-imagens/SacolasTNT/Sacola-TNT-34.webp'
 import SacolaTNT35 from '../../assets/images/novas-imagens/SacolasTNT/Sacola-TNT-35.webp'
 import SacolaTNT36 from '../../assets/images/novas-imagens/SacolasTNT/Sacola-TNT-36.webp'
 import SacolaTNT37 from '../../assets/images/novas-imagens/SacolasTNT/Sacola-TNT-37.webp'
@@ -66,9 +63,6 @@ export const sacolasTNTLink = {
   SacolaTNT26,
   SacolaTNT27,
   SacolaTNT28,
-  SacolaTNT32,
-  SacolaTNT33,
-  SacolaTNT34,
   SacolaTNT35,
   SacolaTNT36,
   SacolaTNT37,

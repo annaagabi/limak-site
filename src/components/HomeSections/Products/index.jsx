@@ -14,7 +14,7 @@ export default function Products({
 
     // Medidas do baseStyleContainer antigo: w-70 md:w-167 lg:w-255 xl:w-312 --- Novas medidas: w-full max-w-7xl
     const baseStyleSection = 'w-full flex flex-col justify-center items-center';
-    const baseStyleContainer = 'w-70 md:w-167 lg:w-255 xl:w-312 flex flex-col justify-between items-center lg:px-15 xl:px-0 mx-5 md:mx-12 lg:mx-0 gap-5';
+    const baseStyleContainer = 'w-70 md:w-167 lg:w-255 xl:w-312 flex flex-col justify-between items-center lg:px-12 gap-5';
     // const baseStyleTopSection = 'flex justify-between';
     const baseStyleTopSection = `w-full flex ${type === 'corporate' ? 'justify-start items-start' : 'justify-between'}`;
     const baseStyleH2 = 'text-lg md:text-2xl lg:text-xl xl:text-2xl font-semibold text-[var(--shani-purple)] md:mb-2';

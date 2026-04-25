@@ -5,7 +5,7 @@ export default function ModalNatal() {
       <input type="checkbox" id="fechar-modal" className="hidden" />
 
       {/* Wrapper fixo e centralizado */}
-      <div className="fixed top-5 left-1/2 -translate-x-1/2 z-[9999] w-full flex justify-center">
+      <div className="hidden md:flex fixed top-7 left-1/2 -translate-x-1/2 z-[9999] w-full flex justify-center">
         
         {/* Modal com animação */}
         <div

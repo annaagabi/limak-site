@@ -5,6 +5,9 @@ import Capas4 from '../../assets/images/novas-imagens/CapaCadeira/Capa-Cadeira-4
 import Capas5 from '../../assets/images/novas-imagens/CapaCadeira/Capa-Cadeira-5.webp'
 import Capas6 from '../../assets/images/novas-imagens/CapaCadeira/Capa-Cadeira-6.webp'
 import Capas7 from '../../assets/images/novas-imagens/CapaCadeira/Capa-Cadeira-7.webp'
+import Capas8 from '../../assets/images/novas-imagens/CapaCadeira/Capa-Cadeira-8.webp'
+import Capas9 from '../../assets/images/novas-imagens/CapaCadeira/Capa-Cadeira-9.webp'
+import Capas10 from '../../assets/images/novas-imagens/CapaCadeira/Capa-Cadeira-10.webp'
 
 export const capasLink = {
   Capas1,
@@ -14,4 +17,7 @@ export const capasLink = {
   Capas5,
   Capas6,
   Capas7,
+  Capas8,
+  Capas9,
+  Capas10,
 }

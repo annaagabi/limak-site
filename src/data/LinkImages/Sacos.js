@@ -11,6 +11,10 @@ import Saco117 from '../../assets/images/novas-imagens/SacosTNT/Saco-TNT-7.webp'
 // import Saco9 from '../../assets/images/novas-imagens/SacosTNT/Saco-TNT-9.webp'
 // import Saco10 from '../../assets/images/novas-imagens/SacosTNT/Saco-TNT-10.webp'
 
+import Saco94 from '../../assets/images/novas-imagens/SacosTNT/Saco-TNT-8.webp'
+import Saco95 from '../../assets/images/novas-imagens/SacosTNT/Saco-TNT-9.webp'
+import Saco96 from '../../assets/images/novas-imagens/SacosTNT/Saco-TNT-10.webp'
+
 
 export const sacosLink = {
   // Saco1,
@@ -23,7 +27,7 @@ export const sacosLink = {
   Saco108,
   Saco110,
   Saco117,
-  // Saco8,
-  // Saco9,
-  // Saco10,
+  Saco94,
+  Saco95,
+  Saco96,
 }

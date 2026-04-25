@@ -7,7 +7,7 @@ export default function AboutContent() {
     // Medidas antigas da Div container (logo após a Section) w-70 md:w-167 lg:w-255 xl:w-312 ---- Novas medidas: w-full max-w-7xl
     <section className="w-full flex flex-col justify-center items-center px-4 md:px-12 py-5 my-5 md:my-7 lg:my-12 gap-6 md:gap-9 lg:gap-16">
       
-      <div className='w-70 md:w-167 lg:w-255 xl:w-312 flex flex-col justify-center items-center gap-5 md:gap-7 lg:gap-12'>
+      <div className='w-full max-w-7xl flex flex-col justify-center items-center gap-5 md:gap-7 lg:gap-12'>
 
         <img src={About} alt="Imagem ilustrativa de pessoas apontando para projeto sobre uma mesa" className="w-full max-w-[57.5rem] object-contain"/>
 

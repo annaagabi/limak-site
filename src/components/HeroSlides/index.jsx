@@ -21,11 +21,11 @@ export default function HeroSlide({
         
     return (
         <div className={`
-            w-full max-w-[100vw]
+            w-full max-w-full
             md:max-w-7xl mx-auto
             flex flex-col md:flex-row-reverse
             justify-between items-center
-            md:gap-7 lg:gap-16 xl:gap-32
+            px-4 md:px-12 md:gap-7 lg:gap-16 xl:gap-20
             transition-all duration-300
             ${containerClassName}
             `}>
@@ -34,7 +34,7 @@ export default function HeroSlide({
                 <img
                     className={`
                         w-full
-                        max-w-xs md:max-w-sm lg:max-w-lg
+                        max-w-xs md:max-w-sm lg:max-w-md
                         aspect-[4/3]
                         max-h-[16rem] lg:max-h-[20rem]
                         object-contain
@@ -50,7 +50,7 @@ export default function HeroSlide({
 
             <div className={`
                     w-full max-w-xl flex flex-col justify-center
-                    items-center lg:items-start transition-all duration-300 
+                    items-center md:items-start transition-all duration-300 
                     ${contentClassName}
                 `}>
 

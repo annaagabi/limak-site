@@ -28,11 +28,11 @@ export default function Hero() {
             speed={1000}
             pagination={{ clickable: true }}
             modules={[Autoplay, Pagination]}
-            className="w-full max-w-full overflow-hidden"
+            className="w-full overflow-hidden hero-swiper-container"
             >
 
                 {/* Primeiro Slide (Principal) */}
-                <SwiperSlide className="!w-full box-border flex justify-center items-center md:px-12 xl:px-0 !overflow-hidden">
+                <SwiperSlide className="!w-full box-border flex justify-center items-center !overflow-hidden">
                     <HeroSlide
                         image={HeroImage}
                         imageAlt="Imagem com 3 produtos personalizados, uma mochila e duas sacolas diferentes"
@@ -57,7 +57,7 @@ export default function Hero() {
 
 
                 {/* Segundo Slide */}
-               <SwiperSlide className="!w-full box-border flex justify-center items-center md:px-12 xl:px-0 !overflow-hidden bg-gradient-to-b from-white via-[#ba77db09] to-[#ba77db]">
+               <SwiperSlide className="!w-full box-border flex justify-center items-center !overflow-hidden bg-gradient-to-b from-white via-[#ba77db09] to-[#ba77db]">
                     <HeroSlide
                         image={SacolasTNTHero}
                         imageClassName={'max-w-xs lg:max-w-md'}
@@ -74,21 +74,23 @@ export default function Hero() {
                         }
                         paragraphClassName={'md:!text-justify px-4 md:px-0'}
                         button="Veja a categoria"
-                        buttonClassName={"!w-32 md:!w-40 lg:!w-42 mb-8 md:mb-0"}
+                        buttonClassName={"!w-32 md:!w-40 lg:!w-42 mb-8 md:mb-5"}
                         buttonLink={'/categorias/sacolas-tnt-personalizadas'}
                         ariaLabel={'Abrir link para categoria de sacolas TNT personalizadas'}
                     />
                 </SwiperSlide>
+
                 {/* Terceiro Slide */}
                 <SwiperSlide
                     className="!w-full box-border flex justify-center items-center
-                    md:px-12 xl:px-0
-                    !overflow-hidden bg-white
-                    bg-[radial-gradient(#ba77db_1px,transparent_1px)]
-                    bg-[size:1rem_1rem] md:bg-[size:1.375rem_1.375rem]"
-                    >
-
-                    <HeroSlide
+                    overflow-hidden bg-white relative"
+                                    >
+                                        <div className="absolute inset-0 z-0 pointer-events-none
+                        bg-[radial-gradient(#ba77db_1px,transparent_1px)]
+                        bg-[size:1rem_1rem] md:bg-[size:1.375rem_1.375rem]" 
+                    />
+                    <div className="relative z-10 w-full">
+                                    <HeroSlide
                         image={SacolasAlgodaoHero}
                         imageClassName={'max-w-xs lg:max-w-md'}
                         imageAlt="Imagem com 3 produtos personalizados, uma mochila e duas sacolas diferentes"
@@ -105,11 +107,12 @@ export default function Hero() {
                         }
                         paragraphClassName={'md:!text-justify px-4 md:px-0'}
                         button="Veja a categoria"
-                        buttonClassName={"!w-32 md:!w-40 lg:!w-42 mb-8 md:mb-0"}
+                        buttonClassName={"!w-32 md:!w-40 lg:!w-42 mb-8 md:mb-5"}
                         buttonLink={'/categorias/sacolas-de-algodao-personalizadas'}
                         ariaLabel={'Abrir link para categoria de sacolas TNT personalizadas'}
 
                     />
+                    </div>
                 </SwiperSlide>
 
             </Swiper>

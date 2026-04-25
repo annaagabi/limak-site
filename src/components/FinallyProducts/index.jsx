@@ -19,7 +19,7 @@ export default function FinallyProductsContent() {
     <section aria-labelledby="finally-products-title" className="w-full flex flex-col justify-center items-center px-4 md:px-12 py-5 md:py-7 lg:py-12">
 
       {/* // Medidas antigas da Div container (logo após a Section) w-70 md:w-167 lg:w-255 xl:w-312 ---- Novas medidas: w-full max-w-7xl */}
-      <div className='w-70 md:w-167 lg:w-255 xl:w-312 flex flex-col justify-center items-center gap-5 md:gap-7 lg:gap-12'>
+      <div className='w-full max-w-7xl flex flex-col justify-center items-center gap-5 md:gap-7 lg:gap-12'>
 
         {/* Título e texto */}
         <div className="w-full flex flex-col justify-center gap-5 md:gap-4 lg:gap-7">

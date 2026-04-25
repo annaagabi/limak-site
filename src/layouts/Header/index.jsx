@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 import Logo from '../../assets/images/icons/logo.svg';
 import Menu from '../../assets/images/icons/menu.svg';
 import TelefoneIcon from '../../assets/images/icons/phone-icon.svg';
-import WhatsappIcon from '../../assets/images/icons/whatsapp-icon.svg';
+import WhatsappIcon from '../../assets/images/icons/whatsapp-icon.svg?react';
 import BarraInclinada from '../../assets/images/icons/inclined-line-icon.svg';
 import BlogIcon from '../../assets/images/icons/blog-icon.svg?react';
 import IconDropdown from '../../assets/images/icons/icon-dropdown.svg?react';
@@ -95,7 +95,8 @@ export default function Header() {
                         
                         <div className='flex'>
                             <a href={socialLinks.whatsapp} target="_blank" className='flex gap-1.5 justify-center items-center '>
-                                <img className='w-5 lg:w-7 h-5 lg:h-7' src={WhatsappIcon} alt="Whatsapp da Limak    " />
+                                {/* <img className='w-5 lg:w-7 h-5 lg:h-7' src={WhatsappIcon} alt="Whatsapp da Limak" /> */}
+                                <WhatsappIcon className='w-5 lg:w-7 h-5 lg:h-7 text-green-500 fill-current' alt="Whatsapp da Limak" />
                                 <p className='text-sm lg:text-base text-[var(--white)] whitespace-nowrap'>(11) 3858-8972</p>
                             </a>
                         </div>
